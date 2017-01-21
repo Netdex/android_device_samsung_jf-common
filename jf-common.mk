@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
-CPACKAGES += \
+# Camera
+PRODUCT_PACKAGES += \
     Snap \
     camera.msm8960
 
@@ -109,7 +110,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sap.conf:/system/etc/sap.conf
 
 # Gello
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     Gello
 
 # IPv6 tethering
