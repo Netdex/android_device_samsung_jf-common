@@ -113,6 +113,11 @@ PRODUCT_COPY_FILES += \
 # PRODUCT_PACKAGES += \
     Gello
 
+# Filesystem tools
+PRODUCT_PACKAGES += \
+    e2fsck_static \
+    resize2fs_static
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
