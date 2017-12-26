@@ -13,8 +13,6 @@
 
 # ril
 /efs/imei(/.*)?                                    u:object_r:ril_efs_file:s0
-# USB Gadget
-/dev/hidg(.*)                                              u:object_r:hid_gadget_device:s0
 /efs/FactoryApp/keystr                             u:object_r:ril_efs_file:s0
 
 # sensors
@@ -24,3 +22,6 @@
 
 # wifi
 /efs/wifi/\.mac\.info                              u:object_r:wifi_efs_file:s0
+
+# USB Gadget
+/dev/hidg(.*)                                      u:object_r:hid_gadget_device:s0
